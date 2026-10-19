@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>沙箱买家确认（演示）</title>
+<style>body{font-family:sans-serif;text-align:center;padding:60px 20px;background:#f5f7fa}
+.card{background:#fff;max-width:420px;margin:0 auto;padding:32px;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+button{padding:12px 28px;font-size:15px;border:0;border-radius:8px;background:#0070f3;color:#fff;cursor:pointer;margin:6px}</style>
+</head>
+<body>
+<div class="card">
+  <h2>PayPal 沙箱 · 买家确认</h2>
+  <p>订单 <b>{{ order_id }}</b></p>
+  <p style="color:#888;font-size:13px">演示模式：模拟沙箱买家点击“同意并付款”。<br>回到聊天窗口后点“我已付款，确认收款”。</p>
+  <button onclick="window.close()">我已确认（关闭本页）</button>
+</div>
+</body>
+</html>
