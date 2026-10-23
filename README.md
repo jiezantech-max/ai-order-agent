@@ -1,5 +1,7 @@
 # AI Order Agent — PayPal AI Hackathon 2026
 
+> 聊天下单：用自然语言买东西，AI 代理走 PayPal 完成下单、收款与退款。Chat to buy — an AI agent that takes natural-language orders and completes them via PayPal.
+
 Chat to buy. An AI agent that takes natural-language orders ("buy me two lattes"),
 creates a real PayPal (sandbox) order, walks the buyer through approval, captures
 the payment, and handles refunds — all inside a chat window.
