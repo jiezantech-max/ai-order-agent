@@ -9,6 +9,15 @@ the payment, and handles refunds — all inside a chat window.
 Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/)
 (deadline: Nov 12, 2026 12:00 PT).
 
+### Nebius × NVIDIA edition
+This same codebase is also the entry for the Nebius × NVIDIA AI Hackathon
+(Best Apps & Agents track). In that configuration the agent's LLM runs on
+[Nebius Token Factory](https://api.tokenfactory.nebius.com/v1) with the NVIDIA
+open model `nvidia/nemotron-3-nano-omni` genuinely driving intent parsing,
+confirmation summaries and refund reasoning — swap three environment variables
+(`LLM_BASE_URL`, `LLM_API_KEY`, `LLM_MODEL`) and the PayPal sandbox flow is
+unchanged. See `.env.nebius.example` for the Nebius profile.
+
 ## How it works
 
 1. You type what you want in plain language (Chinese or English).
